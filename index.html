@@ -627,16 +627,21 @@
             <span class="subscription-title">Підпишіться на розсилку</span>
             <div class="subscription-box">
               <label class="subscription-lable">
-              <input class="subscription-input" name="email" type="email" placeholder="E-mail" required/>
-            </label>
-            <button class="subscription-btn" type="submit">
-              Підписатися
-              <svg class="subscription-icon" width="24" height="24">
-                <use href="./images/icons.svg#plane"></use>
-              </svg>
-            </button>
+                <input
+                  class="subscription-input"
+                  name="email"
+                  type="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </label>
+              <button class="subscription-btn" type="submit">
+                Підписатися
+                <svg class="subscription-icon" width="24" height="24">
+                  <use href="./images/icons.svg#plane"></use>
+                </svg>
+              </button>
             </div>
-            
           </form>
         </div>
       </div>
@@ -656,38 +661,54 @@
           <div class="register-form-group">
             <label class="register-form-field">
               <span class="register-form-label">Ім'я</span>
-              <input class="register-form-input" type="text" name="name" required/>
-              <svg class="register-form-icon" width="18" height="18">
+              <input class="register-form-input" type="text" name="name" required />
+              <svg class="register-form-icon" width="13" height="13">
                 <use href="./images/icons.svg#name"></use>
+              </svg>
             </label>
             <label class="register-form-field">
               <span class="register-form-label">Телефон</span>
-              <input class="register-form-input" type="tel" name="phone" minlength="12" maxlength="12" required/>
-              <svg class="register-form-icon" width="18" height="18">
+              <input
+                class="register-form-input"
+                type="tel"
+                name="phone"
+                minlength="12"
+                maxlength="12"
+                required
+              />
+              <svg class="register-form-icon" width="13" height="13">
                 <use href="./images/icons.svg#phone"></use>
+              </svg>
             </label>
             <label class="register-form-field">
               <span class="register-form-label">Пошта</span>
-              <input class="register-form-input" type="email" name="mail" required/>
-              <svg class="register-form-icon" width="18" height="18">
+              <input class="register-form-input" type="email" name="mail" required />
+              <svg class="register-form-icon" width="13" height="13">
                 <use href="./images/icons.svg#mail"></use>
+              </svg>
             </label>
             <label class="register-form-field">
               <span class="register-form-heading">Коментар</span>
-              <textarea class="register-form-message" name="textarea" rows="5" placeholder="Введіть текст"></textarea>
+              <textarea
+                class="register-form-message"
+                name="textarea"
+                rows="5"
+                placeholder="Введіть текст"
+              ></textarea>
             </label>
-           </div>
-            <label class="register-form-agreement">
-              <input class="register-form-checkbox visually-hidden" type="checkbox" name="checkbox">
-              <svg class="register-form-icons" width="18" height="18">
-                <use class="icon-unchecked" href="./images/icons.svg#icon-unchecked"></use>
-                <use class="icon-checked" href="./images/icons.svg#icon-checked"></use>
-                <span class="register-form-desc">
-                Погоджуюся з розсилкою та приймаю
-                <a class="register-form-link" target="_blank" href="">Умови договору</a>
-              </span>
-            </label>
-            <button class="register-form-btn hero-btn" type="submit">Відправити</button>
+          </div>
+          <label class="register-form-agreement">
+            <input class="register-form-checkbox visually-hidden" type="checkbox" name="checkbox" />
+            <svg class="register-form-icons" width="18" height="18">
+              <use class="icon-unchecked" href="./images/icons.svg#icon-unchecked"></use>
+              <use class="icon-checked" href="./images/icons.svg#icon-checked"></use>
+            </svg>
+            <span class="register-form-desc">
+              Погоджуюся з розсилкою та приймаю
+              <a class="register-form-link" target="_blank" href="">Умови договору</a>
+            </span>
+          </label>
+          <button class="register-form-btn hero-btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
